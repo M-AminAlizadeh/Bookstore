@@ -5,7 +5,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  <!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -51,11 +51,6 @@
 - **Component base**
 - **Routing**
 - **Local Storage**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://m-aminalizadeh.github.io/Bookstore/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
