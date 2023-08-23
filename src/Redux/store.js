@@ -5,7 +5,7 @@ import categoriesReducer  from "./categories/categoriesSlice";
 const store = configureStore({
   reducer:{
     books: booksReducer,
-    category: categoriesReducer
+    categories: categoriesReducer,
   }
 })
 
