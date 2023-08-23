@@ -11,3 +11,4 @@ export const categoriesSlice = createSlice({
 });
 
 export const { check } = categoriesSlice.actions;
+export default categoriesSlice;
