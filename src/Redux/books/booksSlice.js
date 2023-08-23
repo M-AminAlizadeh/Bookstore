@@ -122,15 +122,3 @@ const booksSlice = createSlice({
 });
 
 export default booksSlice.reducer;
-
-export const {
-  fetchBooksRequest,
-  fetchBooksSuccess,
-  fetchBooksFailure,
-  addBookRequest,
-  addBookSuccess,
-  addBookFailure,
-  removeBookRequest,
-  removeBookSuccess,
-  removeBookFailure,
-} = booksSlice.actions;
