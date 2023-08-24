@@ -1,0 +1,8 @@
+.progressBar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient( var(--primary-color) 75%, var(--light-color) 0);    
+}
