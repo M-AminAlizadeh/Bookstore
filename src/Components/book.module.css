@@ -1,5 +1,5 @@
-.bookContainer{
-  border:1px solid var(--light-color);
+.bookContainer {
+  border: 1px solid var(--light-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,14 +15,14 @@
   font-weight: bold;
 }
 
-.bookInfo h3{
+.bookInfo h3 {
   text-transform: capitalize;
   font-family: 'Roboto Slab', serif;
   font-size: 1.375rem;
   margin-top: 0.25rem;
 }
 
-.bookInfo h5{
+.bookInfo h5 {
   font-family: 'Roboto Slab', serif;
   text-transform: capitalize;
   font-size: 0.875rem;
@@ -38,46 +38,46 @@
   margin-top: 1rem;
 }
 
-.btnsContainer p{
+.btnsContainer p {
   margin-right: 1rem;
   cursor: pointer;
 }
 
-.progressContainer{
+.progressContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.progressPercentage{
+.progressPercentage {
   text-transform: capitalize;
   color: var(--light-color);
   font-family: 'Montserrat', sans-serif;
   margin-left: 1rem;
 }
 
-.value{
+.value {
   font-size: 2rem;
-  color: #000000;
+  color: #000;
 }
 
-.moreInfo{
+.moreInfo {
   font-family: 'Roboto Slab', serif;
 }
 
-.chapterLabel{
+.chapterLabel {
   text-transform: uppercase;
   font-size: 0.813rem;
 }
 
-.chapterValue{
+.chapterValue {
   font-size: 1rem;
-  margin-top:.5rem;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
   font-weight: bold;
 }
 
-.moreInfoBtn{
+.moreInfoBtn {
   color: #fff;
   background-color: var(--primary-color);
   font-family: 'Roboto Slab', serif;

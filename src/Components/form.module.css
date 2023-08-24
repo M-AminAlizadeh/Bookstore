@@ -1,10 +1,10 @@
 .formContainer {
   border-top: 1px solid var(--light-color);
-  margin: 2.5rem 6.25rem 0rem 6.25rem;
+  margin: 2.5rem 6.25rem 0 6.25rem;
 }
 
-.header{
-  color: #888888;
+.header {
+  color: #888;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 1.25rem;
@@ -19,7 +19,7 @@
   margin-right: 1rem;
 }
 
-.inputBookTitle{
+.inputBookTitle {
   width: 40%;
 }
 

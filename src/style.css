@@ -6,9 +6,10 @@
   box-sizing: border-box;
 }
 
-:root{
+:root {
   --primary-color: #0290ff;
   --dark-color: #121212;
   --light-color: #e8e8e8;
+
   font-size: 16px;
 }
