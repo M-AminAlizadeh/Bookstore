@@ -37,7 +37,7 @@
   border: 1px solid var(--light-color);
   width: 2.813rem;
   height: 2.813rem;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
