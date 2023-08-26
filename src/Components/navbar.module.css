@@ -35,7 +35,11 @@
 
 .profileContainer {
   border: 1px solid var(--light-color);
-  padding: 0.875rem;
+  width: 2.813rem;
+  height: 2.813rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 100%;
   cursor: pointer;
 }
