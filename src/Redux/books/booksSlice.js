@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
@@ -14,12 +13,12 @@ const initialState = {
 // Get
 export const fetchBooks = createAsyncThunk(
   'books/fetchBooks',
-  async (_, { rejectWithValue }) => {
+  async () => {
     try {
       const response = await axios.get(`${baseUrl}${appId}/books`);
       return response.data;
     } catch (error) {
-      return rejectWithValue(error.message);
+      return error.message;
     }
   },
 );
@@ -27,7 +26,7 @@ export const fetchBooks = createAsyncThunk(
 // Post
 export const addBook = createAsyncThunk(
   'books/addBook',
-  async (bookData, { rejectWithValue }) => {
+  async (bookData, thunkAPI) => {
     try {
       const response = await axios.post(`${baseUrl}${appId}/books`, {
         item_id: bookData.item_id,
@@ -35,9 +34,10 @@ export const addBook = createAsyncThunk(
         author: bookData.author,
         category: bookData.category,
       });
+      thunkAPI.dispatch(fetchBooks());
       return response.data;
     } catch (error) {
-      return rejectWithValue(error.message);
+      return error.message;
     }
   },
 );
@@ -45,7 +45,7 @@ export const addBook = createAsyncThunk(
 // Delete
 export const removeBook = createAsyncThunk(
   'books/removeBook',
-  async (payload, { rejectWithValue }) => {
+  async (payload) => {
     try {
       await axios.delete(`${baseUrl}${appId}/books/${payload.itemId}`, {
         data: {
@@ -57,7 +57,7 @@ export const removeBook = createAsyncThunk(
       });
       return { itemId: payload.itemId };
     } catch (error) {
-      return rejectWithValue(error.message);
+      return error.message;
     }
   },
 );
