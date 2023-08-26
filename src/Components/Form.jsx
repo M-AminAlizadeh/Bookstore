@@ -47,7 +47,7 @@ const Form = ()=>{
             />
 
         <input type="text" placeholder="Book author" value={author}
-            onChange={(e) => setAuthor(e.target.value)} className={styles.input} required/>
+            onChange={(e) => setAuthor(e.target.value)} className={`${styles.input} ${styles.inputBookAuthor}`} required/>
 
         <select className={styles.input}>
           <option> Category </option>

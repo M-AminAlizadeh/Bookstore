@@ -1,6 +1,6 @@
 .formContainer {
   border-top: 1px solid var(--light-color);
-  margin: 2.5rem 6.25rem 0 6.25rem;
+  margin: 1.5rem 6.25rem 0 6.25rem;
 }
 
 .header {
@@ -20,7 +20,11 @@
 }
 
 .inputBookTitle {
-  width: 40%;
+  width: 35%;
+}
+
+.inputBookAuthor{
+  width: 35%;
 }
 
 .addBookBtn {
