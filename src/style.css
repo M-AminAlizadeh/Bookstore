@@ -13,3 +13,18 @@
 
   font-size: 16px;
 }
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  background-color: #f5f6fa;
+}
+
+#root {
+  width: 80%;
+  box-shadow:0 0 60px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  background-color: #fafafa;
+  margin: 4rem;
+}
