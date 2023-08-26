@@ -1,0 +1,103 @@
+.bookContainer {
+  border: 1px solid var(--light-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  padding: 1.6rem 2rem;
+  background: #fff;
+}
+
+.bookInfo p {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: capitalize;
+  color: #888;
+  font-size: 0.875rem;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.bookInfo h3 {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  font-size: 1.375rem;
+  margin-top: 0.25rem;
+  letter-spacing: -0.2px;
+}
+
+.bookInfo h5 {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  font-size: 0.875rem;
+  color: var(--primary-color);
+  font-weight: 300;
+}
+
+.btnsContainer {
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  color: var(--primary-color);
+  font-size: 0.875rem;
+  margin-top: 1rem;
+}
+
+.btnsContainer p {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.progressContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progressPercentage {
+  text-transform: capitalize;
+  color: var(--light-color);
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 1rem;
+}
+
+.value {
+  font-size: 2rem;
+  color: #000;
+  margin: 0.063rem 7.063rem 0 0.688rem;
+}
+
+.moreInfo {
+  font-family: 'Roboto Slab', serif;
+  margin: 0.063rem 5.375rem 0 3.688rem;
+}
+
+.chapterLabel {
+  text-transform: uppercase;
+  font-size: 0.813rem;
+  opacity: 0.5;
+}
+
+.chapterValue {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  letter-spacing: -0.4px;
+}
+
+.moreInfoBtn {
+  color: #fff;
+  background-color: var(--primary-color);
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.813rem;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
